@@ -1,6 +1,6 @@
 # LLM Knowledge Base
 
-Last update: 2024/05/02 (YYYY/MM/DD)
+Last update: 2024/05/06 (YYYY/MM/DD)
 
 ## Purpose
 
@@ -85,10 +85,17 @@ While it may resemble one of those 'Awesome' lists, the LLM Knowledge Base is cu
 - Meta
   - Code Llama
   - <https://llama.meta.com/code-llama/>
+- Aider:
+  - [Official website](https://aider.chat)
+  - [GitHub repo](https://github.com/paul-gauthier/aider)
+  - Send code change request via the CLI or a [GUI](https://aider.chat/2024/05/02/browser.html) to a context-aware GPT model, which automatically conducts the change and creates a git commit
 - SWE Agent:
   - <https://the-decoder.de/swe-agent-freie-alternative-zu-ki-entwickler-devin-von-cognition-ai/>
-- Cognition AI: Devin
-- Google: Gemini Code Assist (e.g., as VS Code extension)
+- Cognition AI:
+  - Devin
+  - Open-source version: [Devika](https://github.com/stitionai/devika)
+- Google:
+  - Gemini Code Assist (e.g., as VS Code extension)
 
 ### UI Testing
 
@@ -115,11 +122,15 @@ While it may resemble one of those 'Awesome' lists, the LLM Knowledge Base is cu
 
 ### Videos
 
-- Open AI: Sora
+- Open AI:
+  - Sora
 - Higgsfield AI:
   - [https://higgsfield.ai](https://higgsfield.ai/)
-  - iOS app Diffuse
-  - News article: <https://www.heise.de/news/Diffuse-Ex-KI-Chef-von-Snap-veroeffentlicht-KI-Videogenerator-9677577.html>
+  - iOS app called Diffuse
+  - [News article](https://www.heise.de/news/Diffuse-Ex-KI-Chef-von-Snap-veroeffentlicht-KI-Videogenerator-9677577.html) by Heise
+- Runway:
+  - [Gen-2](https://research.runwayml.com/gen2)
+  - [News article](https://www.heise.de/tests/Bilder-in-Videos-verwandeln-Runway-Gen-2-im-Test-9572001.html) by Heise
 - Microsoft:
   - VASA:
     - Text + face image to animated face video
@@ -209,10 +220,11 @@ While it may resemble one of those 'Awesome' lists, the LLM Knowledge Base is cu
 
 ## Helpful Libraries
 
-### Aider
+### GPT4All
 
-- <https://github.com/paul-gauthier/aider>
-- Send code change request via the CLI to a context-aware GPT model, which automatically conducts the change and creates a git commit
+- Open-source ChatGPT-like UI wrapper to interact with open-source LLM models like Mistral-7b
+- Focus on end-user devices (low amount of RAM and storage)
+- Visit the [official website](https://gpt4all.io/index.html) or the [GitHub repo](https://github.com/nomic-ai/gpt4all?tab=readme-ov-file) for more info and installation instructions
 
 ### Microsoft's TypeChat
 
@@ -223,6 +235,14 @@ While it may resemble one of those 'Awesome' lists, the LLM Knowledge Base is cu
   - TypeChat then builds the prompt, sends it to the LLM (e.g., GPT), and returns the LLM output.
 - Repo: <https://github.com/microsoft/TypeChat/tree/main?tab=readme-ov-file>
 - Examples and introduction: <https://microsoft.github.io/TypeChat/docs/introduction/>
+
+## Pinokio
+
+- Open-source application that lets you browse AI models, like SDXL, in a marketplace-like UI and install them on your machine
+- [Official website](https://pinokio.computer)
+- [GitHub repo](https://github.com/pinokiocomputer/pinokio)
+
+## Responsible AI (Ethics, Security, etc.)
 
 ### LLM Security Libraries
 
@@ -242,6 +262,10 @@ While it may resemble one of those 'Awesome' lists, the LLM Knowledge Base is cu
 - LVE Repository
   - Listing of LLM vulnerabilities
   - <https://github.com/lve-org/lve>
+
+### Certification for AI Models
+
+- In Germany by TÜV Nord ([news article](https://www.heise.de/news/KI-Update-Deep-Dive-Tuev-IT-ueber-KI-Zertifizierung-9706680.html))
 
 ## Related 'Awesome' Lists
 

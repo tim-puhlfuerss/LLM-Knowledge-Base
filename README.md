@@ -1,6 +1,6 @@
 # LLM Knowledge Base
 
-Last update: 2024/05/06 (YYYY/MM/DD)
+Last update: 2024/05/07 (YYYY/MM/DD)
 
 ## Purpose
 
@@ -119,6 +119,20 @@ While it may resemble one of those 'Awesome' lists, the LLM Knowledge Base is cu
   - News article: <https://www.heise.de/news/Meta-bringt-mit-Imagine-eigenstaendigen-KI-Bildgenerator-9566722.html>
 - Amazon: Titan
   - News article: <https://www.heise.de/news/Titan-fuer-Geschaeftskunden-Amazon-mit-eigenem-Modell-fuer-KI-Bildgeneratoren-9544056.html>
+- Stable Diffusion GUIs:
+  - Automatic1111
+    - [GitHub](https://github.com/AUTOMATIC1111/stable-diffusion-webui)
+  - Fooocus
+    - [GitHub](https://github.com/lllyasviel/Fooocus)
+  - ComfyUI
+    - [GitHub](https://github.com/comfyanonymous/ComfyUI)
+- Illusion Diffusion
+  - Hide images (e.g., selfies) in other images (e.g., landscape)
+  - [Hugging Face](https://huggingface.co/spaces/AP123/IllusionDiffusion)
+  - [Website](https://illusiondiffusion.net)
+- Story Diffusion
+  - Create a comic-like storyboard
+  - [Website](https://aistorydiffusion.com)
 
 ### Videos
 
@@ -157,7 +171,7 @@ While it may resemble one of those 'Awesome' lists, the LLM Knowledge Base is cu
 - E.g., few-shot / many-shot prompting
 - Much cheaper and less effortful
 - Many-shot:
-  - >100 examples
+  - \>100 examples
   - In a test by Google, the performance of Gemini Pro 1.5 with many-shot prompts was significantly better than with few-shots
   - Paper: <https://arxiv.org/abs/2404.11018>
   - News article: <https://the-decoder.de/prompts-mit-vielen-beispielen-verbessern-die-leistung-grosser-sprachmodelle/>
@@ -170,12 +184,26 @@ While it may resemble one of those 'Awesome' lists, the LLM Knowledge Base is cu
 
 ## LLM Benchmarks
 
+### Datasets
+
 - MMLU (Measuring Massive Multitask Language Understanding)
 - Open Medical-LLM Leaderboard
   - For health
   - By Hugging Face
   - Uses multiple health datasets
   - News article: <https://www.heise.de/news/LLMs-als-Arzthelfer-Benchmark-von-Hugging-Face-gibt-Zeugnisse-fuer-GPT-und-Co-9692203.html>
+
+### Tools
+
+- LMSYS Chatbot Arena
+  - [Website](https://chat.lmsys.org)
+  - Other projects by LMSYS on their [website](https://lmsys.org)
+- Prometheus 2
+  - Open-source LLM to benchmark other LLMs (similar to a human assessment)
+  - [GitHub](https://github.com/prometheus-eval/prometheus-eval)
+  - [Hugging Face](https://huggingface.co/prometheus-eval/prometheus-8x7b-v2.0)
+  - [News article](https://the-decoder.de/open-source-llm-prometheus-2-soll-andere-sprachmodelle-bewerten-und-verbessern/) by The Decoder
+  - Note: GPT and other LLMs can do this, too. But Prometheus is open-source and reaches a similar performance
 
 ## AI Tools and Platforms
 
@@ -199,6 +227,11 @@ While it may resemble one of those 'Awesome' lists, the LLM Knowledge Base is cu
 
 - [https://www.perplexity.ai](https://www.perplexity.ai/)
 - A search engine that summarizes the results of a search request in small text chunks, incl. hyperlinks to its sources.
+
+### Amazon Q
+
+- [Blog article](https://www.aboutamazon.com/news/aws/amazon-q-generative-ai-assistant-aws) by Amazon
+- [News article](https://the-decoder.de/amazon-veroeffentlicht-business-chatbot-q-mit-neuen-funktionen/) by The Decoder
 
 ## Embedding Models
 
@@ -238,7 +271,7 @@ While it may resemble one of those 'Awesome' lists, the LLM Knowledge Base is cu
 
 ## Pinokio
 
-- Open-source application that lets you browse AI models, like SDXL, in a marketplace-like UI and install them on your machine
+- Open-source application that lets you browse curated AI models, like SDXL, or related libraries, like Automatic1111, in a marketplace-like UI and install them on your machine
 - [Official website](https://pinokio.computer)
 - [GitHub repo](https://github.com/pinokiocomputer/pinokio)
 
@@ -263,6 +296,13 @@ While it may resemble one of those 'Awesome' lists, the LLM Knowledge Base is cu
   - Listing of LLM vulnerabilities
   - <https://github.com/lve-org/lve>
 
+### Guidelines
+
+- AI Guideline by German Data Protection Authority in May 2024:
+  - [Guideline](https://www.datenschutzkonferenz-online.de/media/oh/20240506_DSK_Orientierungshilfe_KI_und_Datenschutz.pdf)
+  - [Additional resolution](https://www.datenschutzkonferenz-online.de/media/dskb/20240503_DSK_Positionspapier_Zustaendigkeiten_KI_VO.pdf)
+  - [News article](https://www.heise.de/news/Datenschutzkonferenz-gibt-Leitfaden-fuer-DSGVO-konforme-KI-Anwendungen-9709228.html) by Heise
+
 ### Certification for AI Models
 
 - In Germany by TÜV Nord ([news article](https://www.heise.de/news/KI-Update-Deep-Dive-Tuev-IT-ueber-KI-Zertifizierung-9706680.html))
@@ -280,3 +320,7 @@ While it may resemble one of those 'Awesome' lists, the LLM Knowledge Base is cu
   - The model rejects a request in prio 2 or 3 if it misaligns with the instructions in prio 1.
   - News article: <https://the-decoder.de/openai-will-ki-sicherheit-mit-prompt-hierarchie-verbessern/>
   - Paper: <https://arxiv.org/abs/2404.13208>
+ 
+### Cooperation StackOverlow x OpenAI
+
+- [News article](https://the-decoder.de/chatgpt-bekommt-durch-stack-overflow-integration-zugriff-auf-validiertes-entwickler-wissen/) by The Decoder (May 2024)

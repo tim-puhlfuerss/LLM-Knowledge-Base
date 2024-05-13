@@ -1,6 +1,6 @@
 # LLM Knowledge Base
 
-Last update: 2024/05/08 (YYYY/MM/DD)
+Last update: 2024/05/13 (YYYY/MM/DD)
 
 ## Purpose
 
@@ -64,6 +64,14 @@ While it may resemble one of those 'Awesome' lists, the LLM Knowledge Base is cu
   - “Efficient Language Model” for edge devices
   - Preprint: <https://doi.org/10.48550/arXiv.2404.14619>
   - Model: <https://huggingface.co/apple/OpenELM>
+- DeepSeek
+  - Chinese Start-up
+  - DeepSeek V2 is an open-source ChatGPT-like model published in May 2025
+  - [Website](https://www.deepseek.com)
+  - [GitHub](https://github.com/deepseek-ai/DeepSeek-VL)
+  - [Paper pre-print](https://doi.org/10.48550/arXiv.2403.05525) on Arxiv
+  - [Chat demo](https://huggingface.co/spaces/deepseek-ai/DeepSeek-VL-7B) on Hugging Face
+  - [News article 1](https://www.heise.de/news/ChatGPT-4-Konkurrent-aus-China-DeepSeek-V2-ist-Open-Source-9713482.html) by Heise and [article 2](https://the-decoder.de/deepseek-v2-ist-das-neue-mixture-of-experts-spitzenmodell/) by The Decoder
 - Aleph Alpha
   - From Heidelberg (Germany)
   - [https://aleph-alpha.com](https://aleph-alpha.com/)
@@ -85,6 +93,13 @@ While it may resemble one of those 'Awesome' lists, the LLM Knowledge Base is cu
 - Meta
   - Code Llama
   - <https://llama.meta.com/code-llama/>
+- IBM
+  - Granite
+  - Open-source model for programming tasks
+  - [Website](https://research.ibm.com/blog/granite-code-models-open-source)
+  - [Paper pre-print](https://doi.org/10.48550/arXiv.2405.04324) on Arxiv
+  - [Models](https://huggingface.co/collections/ibm-granite/granite-code-models-6624c5cec322e4c148c8b330) on Hugging Face
+  - [News article](https://the-decoder.de/ibms-granite-code-schlaegt-alle-anderen-open-source-codiermodelle/) by The Decoder
 - Aider:
   - [Official website](https://aider.chat)
   - [GitHub repo](https://github.com/paul-gauthier/aider)
@@ -106,8 +121,9 @@ While it may resemble one of those 'Awesome' lists, the LLM Knowledge Base is cu
 ### Images
 
 - Ideogram AI:
-  - <https://ideogram.ai/login>
-  - News article: <https://the-decoder.de/bild-ki-ideogram-bekommt-ein-update-und-ist-wirklich-richtig-gut/>
+  - Create an image that represents a concept or visualizes a text based on a text prompt 
+  - [Website](https://ideogram.ai/login)
+  - [News article](https://the-decoder.de/bild-ki-ideogram-bekommt-ein-update-und-ist-wirklich-richtig-gut/) by The Decoder
   - Offers “negative prompts” to exclude certain elements from the image
   - Offers a “describe” feature to generate image captions
 - Stability AI: Stable Diffusion (z.B. SDXL)
@@ -117,6 +133,10 @@ While it may resemble one of those 'Awesome' lists, the LLM Knowledge Base is cu
 - Google: Imagen 2
 - Meta: Imagine (based on Emu model)
   - News article: <https://www.heise.de/news/Meta-bringt-mit-Imagine-eigenstaendigen-KI-Bildgenerator-9566722.html>
+- Magnific AI:
+  - Image resolution upscaler
+  - [Website](https://magnific.ai)
+  - Was acquired by Freepik in May 2024 ([News article](https://the-decoder.de/ki-upscale-start-up-magnific-ai-schafft-exit-mit-aussergewoehnlicher-gruendergeschichte/) by The Decoder)  
 - Amazon: Titan
   - News article: <https://www.heise.de/news/Titan-fuer-Geschaeftskunden-Amazon-mit-eigenem-Modell-fuer-KI-Bildgeneratoren-9544056.html>
 - Stable Diffusion GUIs:
@@ -164,6 +184,12 @@ While it may resemble one of those 'Awesome' lists, the LLM Knowledge Base is cu
   - Support for multiple languages
   - [https://www.udio.com](https://www.udio.com/)
   - News article: <https://www.heise.de/news/Kuenstliche-Intelligenz-Udio-Mit-wenigen-Stichworten-zum-eigenen-Song-9681717.html>
+ 
+### Specific Domains
+
+#### Medicine
+
+- AlphaFold 3 by Google for protein structures ([news article](https://www.heise.de/news/AlphaFold-3-Googles-KI-sagt-Struktur-aller-Molekuele-voraus-9713361.html) by Heise)
 
 ## In-Context Learning
 
@@ -301,11 +327,21 @@ While it may resemble one of those 'Awesome' lists, the LLM Knowledge Base is cu
 - AI Guideline by German Data Protection Authority in May 2024:
   - [Guideline](https://www.datenschutzkonferenz-online.de/media/oh/20240506_DSK_Orientierungshilfe_KI_und_Datenschutz.pdf)
   - [Additional resolution](https://www.datenschutzkonferenz-online.de/media/dskb/20240503_DSK_Positionspapier_Zustaendigkeiten_KI_VO.pdf)
-  - [News article](https://www.heise.de/news/Datenschutzkonferenz-gibt-Leitfaden-fuer-DSGVO-konforme-KI-Anwendungen-9709228.html) by Heise
+  - [News article 1](https://www.heise.de/news/Datenschutzkonferenz-gibt-Leitfaden-fuer-DSGVO-konforme-KI-Anwendungen-9709228.html) and [article 2](https://www.heise.de/news/AI-Act-Datenschuetzer-wollen-KI-Verordnung-in-Deutschland-durchsetzen-9713089.html) by Heise
+- OpenAI Model Specs
+  - Set of definitions how an LLM should behave in interacting with users
+  - [Article](https://openai.com/index/introducing-the-model-spec/) by OpenAI 
+  - [News article](https://the-decoder.de/openai-veroeffentlicht-erstmals-richtlinien-fuer-ki-modellverhalten/) by The Decoder
 
 ### Certification for AI Models
 
 - In Germany by TÜV Nord ([news article](https://www.heise.de/news/KI-Update-Deep-Dive-Tuev-IT-ueber-KI-Zertifizierung-9706680.html))
+
+### BYOAI
+
+- In early 2024, many employees already use AI for their tasks at work without their managers knowing about it ("Bring Your Own AI")
+- [Survey](https://assets-c4akfrf5b4d3f4b7.z01.azurefd.net/assets/2024/05/2024_Work_Trend_Index_Annual_Report_663d45200a4ad.pdf) by Microsoft and LinkedIn
+- [News article](https://the-decoder.de/laut-microsoft-ist-ki-scham-am-arbeitsplatz-eine-sache/) by The Decoder
 
 ## Related 'Awesome' Lists
 
@@ -324,8 +360,10 @@ While it may resemble one of those 'Awesome' lists, the LLM Knowledge Base is cu
 ### Digital Watermark for AI-Generated Content
 
 - [C2PA](https://c2pa.org) standard to trace the origin of AI-generated content, e.g., images
+- Founded by Adobe
 - OpenAI is part of the C2PA committee and developed a "Detection Classifier" to detect images generated by DALL-E.
 - [News article](https://the-decoder.de/openai-unterstuetzt-c2pa-standard-fuer-ki-bilder-und-veroeffentlicht-klassifikator/) by The Decoder
+- TikTok also became part of it in May 2025 ([news article](https://www.heise.de/news/Tiktok-tritt-CAI-bei-C2PA-Kennzeichnung-fuer-KI-Inhalte-9713446.html) by Heise)
  
 ### Cooperation StackOverlow x OpenAI
 

@@ -1,6 +1,6 @@
 # LLM Knowledge Base
 
-Last update: 2024/05/13 (YYYY/MM/DD)
+Last update: 2024/05/16 (YYYY/MM/DD)
 
 ## Purpose
 
@@ -16,10 +16,12 @@ While it may resemble one of those 'Awesome' lists, the LLM Knowledge Base is cu
 ### Text
 
 - OpenAI
-  - GPT
-  - GPT-4V
-    - Text + image to text
+  - GPT family
+  - GPT-4o
+    - Text + image + audio to text + image + audio
+    - "omni model" for multi-modal interaction
     - E.g., to generate code for a mock-up
+    - News articles: [Heise](https://www.heise.de/news/OpenAI-Keine-Suche-kein-GPT-5-aber-GPT-4o-fuer-ChatGPT-und-GPT-4-9716626.html), [The Decoder](https://the-decoder.de/gpt-4o-diese-beeindruckenden-faehigkeiten-stecken-noch-im-neuen-ki-modell-von-openai/)
 - Meta
   - Llama3
   - LLMLingua-2

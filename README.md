@@ -1,6 +1,6 @@
 # LLM Knowledge Base
 
-Last update: 2024/05/23 (YYYY/MM/DD)
+Last update: 2024/06/04 (YYYY/MM/DD)
 
 ## Purpose
 
@@ -24,6 +24,12 @@ While it may resemble one of those 'Awesome' lists, the LLM Knowledge Base is cu
   - E.g., to generate code for a mock-up
   - News articles: [Heise](https://www.heise.de/news/OpenAI-Keine-Suche-kein-GPT-5-aber-GPT-4o-fuer-ChatGPT-und-GPT-4-9716626.html), [The Decoder](https://the-decoder.de/gpt-4o-diese-beeindruckenden-faehigkeiten-stecken-noch-im-neuen-ki-modell-von-openai/)
 
+#### Meta
+
+- Chameleon
+  - [Pre-print](https://doi.org/10.48550/arXiv.2405.09818) on arXiv
+  - [News article](https://the-decoder.de/chameleon-meta-stellt-den-vorlaeufer-seiner-gpt-4o-alternative-vor/) by The Decoder
+
 ### Text Input / Output
 
 #### Meta
@@ -32,7 +38,7 @@ While it may resemble one of those 'Awesome' lists, the LLM Knowledge Base is cu
 - LLMLingua-2
   - Compresses prompts up to 80% to make model calls more cost-efficient
   - Released on 19.03.2024
-  - [Pre-print](https://doi.org/10.48550/arXiv.2403.12968)
+  - [Pre-print](https://doi.org/10.48550/arXiv.2403.12968) on arXiv
   - [News article](https://the-decoder.de/neues-tool-von-microsoft-kann-ki-prompts-um-bis-zu-80-prozent-komprimieren/) by The Decoder
 - Open source
 
@@ -79,7 +85,7 @@ While it may resemble one of those 'Awesome' lists, the LLM Knowledge Base is cu
 
 - OpenELM family
 - “Efficient Language Model” for edge devices
-- [Preprint](https://doi.org/10.48550/arXiv.2404.14619)
+- [Preprint](https://doi.org/10.48550/arXiv.2404.14619) on arXiv
 - [Model](https://huggingface.co/apple/OpenELM) on Hugging Face
 
 #### DeepSeek
@@ -88,7 +94,7 @@ While it may resemble one of those 'Awesome' lists, the LLM Knowledge Base is cu
 - DeepSeek V2 is an open-source ChatGPT-like model published in May 2025
 - [Website](https://www.deepseek.com)
 - [GitHub](https://github.com/deepseek-ai/DeepSeek-VL)
-- [Paper pre-print](https://doi.org/10.48550/arXiv.2403.05525) on Arxiv
+- [Paper pre-print](https://doi.org/10.48550/arXiv.2403.05525) on arXiv
 - [Chat demo](https://huggingface.co/spaces/deepseek-ai/DeepSeek-VL-7B) on Hugging Face
 - [News article 1](https://www.heise.de/news/ChatGPT-4-Konkurrent-aus-China-DeepSeek-V2-ist-Open-Source-9713482.html) by Heise and [article 2](https://the-decoder.de/deepseek-v2-ist-das-neue-mixture-of-experts-spitzenmodell/) by The Decoder
 
@@ -123,7 +129,7 @@ While it may resemble one of those 'Awesome' lists, the LLM Knowledge Base is cu
 - Granite
 - Open-source model for programming tasks
 - [Blog article](https://research.ibm.com/blog/granite-code-models-open-source) by IBM
-- [Paper pre-print](https://doi.org/10.48550/arXiv.2405.04324) on Arxiv
+- [Paper pre-print](https://doi.org/10.48550/arXiv.2405.04324) on arXiv
 - [Models](https://huggingface.co/collections/ibm-granite/granite-code-models-6624c5cec322e4c148c8b330) on Hugging Face
 - [News article](https://the-decoder.de/ibms-granite-code-schlaegt-alle-anderen-open-source-codiermodelle/) by The Decoder
 
@@ -152,7 +158,7 @@ While it may resemble one of those 'Awesome' lists, the LLM Knowledge Base is cu
 - Ferret UI
   - Explain elements of an iOS app
   - [News article](https://www.heise.de/news/Frettchen-voraus-Apple-KI-Ferret-UI-will-bei-App-Bedienung-helfen-9680770.html) by Heise
-  - [Pre-print](https://doi.org/10.48550/arXiv.2404.05719)
+  - [Pre-print](https://doi.org/10.48550/arXiv.2404.05719) on arXiv
 
 ### Image Output
 
@@ -274,13 +280,13 @@ While it may resemble one of those 'Awesome' lists, the LLM Knowledge Base is cu
 - Many-shot:
   - \>100 examples
   - In a test by Google, the performance of Gemini Pro 1.5 with many-shot prompts was significantly better than with few-shots.
-  - [Paper pre-print](https://arxiv.org/abs/2404.11018) by Agarwal et al.
+  - [Pre-print](https://arxiv.org/abs/2404.11018) by Agarwal et al. on arXiv
   - [News article](https://the-decoder.de/prompts-mit-vielen-beispielen-verbessern-die-leistung-grosser-sprachmodelle/) by The Decoder
 
 ## Multi-Agent LLMs
 
 - Multi-agent LLMs enable automated generation of hypotheses, experiment design and simulation
-  - [Paper pre-print](https://arxiv.org/abs/2404.11794) by Manning et al.
+  - [Paper pre-print](https://arxiv.org/abs/2404.11794) by Manning et al. on arXiv
   - [News article](https://the-decoder.de/llms-koennten-praezise-grossangelegte-sozialwissenschaftliche-experimente-ermoeglichen/) by The Decoder
 
 ## LLM Benchmarks
@@ -326,11 +332,18 @@ While it may resemble one of those 'Awesome' lists, the LLM Knowledge Base is cu
 
 ### Tools
 
-#### Meta
+#### Microsoft's AI Toolkit for VS Code
 
-- Meta AI
-  - Llama-based Assistant that refers to search engine results to provide up-to-date information
-  - Also integrated in search features of Facebook, Instagram, WhatsApp and Messenger
+- VS Code extension to explore, try, fine-tune, and integrate various models (incl. GPT, Llama, Mistral) into applications.
+- [Blog post](https://techcommunity.microsoft.com/t5/microsoft-developer-community/announcing-the-ai-toolkit-for-visual-studio-code/ba-p/4146473) by Microsoft
+- [Extension in the VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=ms-windows-ai-studio.windows-ai-studio&ssr=false#overview)
+- [Blog post about the Azure AI Studio](https://techcommunity.microsoft.com/t5/ai-ai-platform-blog/shaping-tomorrow-developing-and-deploying-generative-ai-apps/ba-p/4143017) related to the AI Toolkit by Microsoft
+- [News article](https://www.heise.de/news/Microsoft-veroeffentlicht-KI-Erweiterung-AI-Toolkit-fuer-Visual-Studio-Code-9726476.html) by Heise
+
+#### Meta AI
+
+- Llama-based Assistant that refers to search engine results to provide up-to-date information
+- Also integrated in search features of Facebook, Instagram, WhatsApp and Messenger
 
 #### [Perplexity]((https://www.perplexity.ai/))
 
@@ -406,7 +419,7 @@ While it may resemble one of those 'Awesome' lists, the LLM Knowledge Base is cu
 
 #### [LLM Guard](https://github.com/protectai/llm-guard)
 
-- Detect harmful language, prevent data leakage and prompt injection
+- Detect harmful language, prevent data leakage, and prompt injection
 
 #### [LVE Repository](https://github.com/lve-org/lve)
 
@@ -449,7 +462,7 @@ While it may resemble one of those 'Awesome' lists, the LLM Knowledge Base is cu
   - Prio 1 is the system message, prio 2 is the user message, and prio 3 is tool output (prompts taken from LLM outputs or other tools).
   - The model rejects a request in prio 2 or 3 if it misaligns with the instructions in prio 1.
   - [News article](https://the-decoder.de/openai-will-ki-sicherheit-mit-prompt-hierarchie-verbessern/) by The Decoder
-  - [Paper pre-print](https://arxiv.org/abs/2404.13208)
+  - [Pre-print](https://arxiv.org/abs/2404.13208) on arXiv
 
 ### Digital Watermark for AI-Generated Content
 
@@ -458,6 +471,11 @@ While it may resemble one of those 'Awesome' lists, the LLM Knowledge Base is cu
 - OpenAI is part of the C2PA committee and developed a "Detection Classifier" to detect images generated by DALL-E.
 - [News article](https://the-decoder.de/openai-unterstuetzt-c2pa-standard-fuer-ki-bilder-und-veroeffentlicht-klassifikator/) by The Decoder
 - TikTok also became part of it in May 2025 ([news article](https://www.heise.de/news/Tiktok-tritt-CAI-bei-C2PA-Kennzeichnung-fuer-KI-Inhalte-9713446.html) by Heise)
+
+### AI for Work
+
+- [Website](https://www.aiforwork.co) that provides LLM prompts for various domains and specific tasks.
+However, it requires an account and is a bit sketchy as it provides no information about the website's administrator.
 
 ### Cooperation StackOverlow x OpenAI
 

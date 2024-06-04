@@ -457,9 +457,11 @@ While it may resemble one of those 'Awesome' lists, the LLM Knowledge Base is cu
 - [Survey](https://assets-c4akfrf5b4d3f4b7.z01.azurefd.net/assets/2024/05/2024_Work_Trend_Index_Annual_Report_663d45200a4ad.pdf) by Microsoft and LinkedIn
 - [News article](https://the-decoder.de/laut-microsoft-ist-ki-scham-am-arbeitsplatz-eine-sache/) by The Decoder
 
-## Related 'Awesome' Lists
+## eXplainable AI
 
-- [Awesome ML](https://github.com/underlines/awesome-ml)
+- Anthrophic's extraction of interpretable features from Claude 3 Sonnet
+  - [Paper](https://transformer-circuits.pub/2024/scaling-monosemanticity/index.html) on Transformer Circuits Thread
+  - [News article](https://www.heise.de/news/Anthropic-bietet-kleinen-Einblick-in-das-Innere-eines-grossen-KI-Modells-9730919.html) by Heise
 
 ## Misc
 
@@ -490,3 +492,7 @@ However, it requires an account and is a bit sketchy as it provides no informati
 
 - [Stack Overflow](https://the-decoder.de/chatgpt-bekommt-durch-stack-overflow-integration-zugriff-auf-validiertes-entwickler-wissen/) 
 - [News Corp](https://www.heise.de/news/OpenAI-geht-Deal-mit-News-Corp-ein-Wall-Street-Journal-Times-Sun-und-mehr-9729147.html)
+
+## Related 'Awesome' Lists
+
+- [Awesome ML](https://github.com/underlines/awesome-ml)

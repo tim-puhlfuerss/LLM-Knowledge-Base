@@ -1,6 +1,6 @@
 # LLM Knowledge Base
 
-Last update: 2024/06/04 (YYYY/MM/DD)
+Last update: 2024/06/05 (YYYY/MM/DD)
 
 ## Purpose
 
@@ -44,7 +44,7 @@ While it may resemble one of those 'Awesome' lists, the LLM Knowledge Base is cu
 
 #### Google
 
-- Gemini / Bard
+- Gemini (formerly Bard)
 
 #### Anthropic
 
@@ -105,7 +105,7 @@ While it may resemble one of those 'Awesome' lists, the LLM Knowledge Base is cu
 - Research organization focusing on LLMs, especially concerning GDPR-save usage
 - Model family: [Luminous](https://docs.aleph-alpha.com/docs/introduction/luminous/)
 
-### Programming Focus
+### Programming/Coding Focus
 
 #### GitHub
 
@@ -119,6 +119,12 @@ While it may resemble one of those 'Awesome' lists, the LLM Knowledge Base is cu
 - Duo (similar to Copilot)
 - Includes rights management on the manager level to restrict the tool from reading sensitive data
 - [News article](https://www.heise.de/news/Duo-GitLab-gibt-KI-Developer-Chat-offiziell-fuer-Pro-Nutzer-frei-9690844.html) by Heise
+
+#### Mistal
+
+- [Codestral](https://mistral.ai/news/codestral/)
+ - Outperforms CodeLlama, Llama 3 and DeepSeek Coder
+ - [News article](https://the-decoder.de/mistral-stellt-neues-code-modell-vor-das-effizienter-und-kompetenter-als-llama-3-sein-soll/) by The Decoder 
 
 #### Meta
 

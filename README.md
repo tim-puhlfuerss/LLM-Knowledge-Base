@@ -1,6 +1,6 @@
 # LLM Knowledge Base
 
-Last update: 2024/06/05 (YYYY/MM/DD)
+Last update: 2024/06/06 (YYYY/MM/DD)
 
 ## Purpose
 
@@ -414,6 +414,27 @@ While it may resemble one of those 'Awesome' lists, the LLM Knowledge Base is cu
 - [Pre-print](https://doi.org/10.48550/arXiv.2310.12941) of v1.0 from October 2023 on arXiv
 - [News article](https://the-decoder.de/stanford-studie-ki-firmen-legen-fortschritte-bei-transparenz-hin-aber-luft-nach-oben-bleibt/) by The Decoder
 
+### Guidelines
+
+#### AI Guidelines by European Union
+
+- Generative AI and the EUDPR. First EDPS Orientations for ensuring data protection compliance when using Generative AI systems (June 2024, by the European Data Protection Supervisor)
+  - [Guideline](https://www.edps.europa.eu/system/files/2024-06/24-06-03_genai_orientations_en.pdf) by the Supervisor
+  - [News article](https://www.heise.de/news/ChatGPT-Co-EU-Datenschuetzer-verteidigt-Datenminimierung-9746014.html) by Heise
+
+#### AI Guideline by German Data Protection Authority
+
+- from May 2024
+- [Guideline](https://www.datenschutzkonferenz-online.de/media/oh/20240506_DSK_Orientierungshilfe_KI_und_Datenschutz.pdf)
+- [Additional resolution](https://www.datenschutzkonferenz-online.de/media/dskb/20240503_DSK_Positionspapier_Zustaendigkeiten_KI_VO.pdf)
+- [News article 1](https://www.heise.de/news/Datenschutzkonferenz-gibt-Leitfaden-fuer-DSGVO-konforme-KI-Anwendungen-9709228.html) and [article 2](https://www.heise.de/news/AI-Act-Datenschuetzer-wollen-KI-Verordnung-in-Deutschland-durchsetzen-9713089.html) by Heise
+
+#### OpenAI Model Specs
+
+- Set of definitions how an LLM should behave in interacting with users
+- [Article](https://openai.com/index/introducing-the-model-spec/) by OpenAI
+- [News article](https://the-decoder.de/openai-veroeffentlicht-erstmals-richtlinien-fuer-ki-modellverhalten/) by The Decoder
+
 ### LLM Security Libraries
 
 [Blog article](https://machine-learning-made-simple.medium.com/7-methods-to-secure-llm-apps-from-prompt-injections-and-jailbreaks-11987b274012) on Medium that introduces multiple libraries
@@ -437,21 +458,6 @@ While it may resemble one of those 'Awesome' lists, the LLM Knowledge Base is cu
 #### [LVE Repository](https://github.com/lve-org/lve)
 
 - Listing of LLM vulnerabilities
-
-### Guidelines
-
-#### AI Guideline by German Data Protection Authority
-
-- from May 2024
-- [Guideline](https://www.datenschutzkonferenz-online.de/media/oh/20240506_DSK_Orientierungshilfe_KI_und_Datenschutz.pdf)
-- [Additional resolution](https://www.datenschutzkonferenz-online.de/media/dskb/20240503_DSK_Positionspapier_Zustaendigkeiten_KI_VO.pdf)
-- [News article 1](https://www.heise.de/news/Datenschutzkonferenz-gibt-Leitfaden-fuer-DSGVO-konforme-KI-Anwendungen-9709228.html) and [article 2](https://www.heise.de/news/AI-Act-Datenschuetzer-wollen-KI-Verordnung-in-Deutschland-durchsetzen-9713089.html) by Heise
-
-#### OpenAI Model Specs
-
-- Set of definitions how an LLM should behave in interacting with users
-- [Article](https://openai.com/index/introducing-the-model-spec/) by OpenAI
-- [News article](https://the-decoder.de/openai-veroeffentlicht-erstmals-richtlinien-fuer-ki-modellverhalten/) by The Decoder
 
 ### Certification for AI Models
 

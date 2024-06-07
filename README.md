@@ -1,6 +1,6 @@
 # LLM Knowledge Base
 
-Last update: 2024/06/06 (YYYY/MM/DD)
+Last update: 2024/06/07 (YYYY/MM/DD)
 
 ## Purpose
 
@@ -10,6 +10,12 @@ The LLM Knowledge Base is a personal collection of helpful information and sourc
 This collection can help you explore the domain of LLMs and related research and toolkits.
 
 While it may resemble one of those 'Awesome' lists, the LLM Knowledge Base is currently a personal compilation of notes and news. It does not claim to be exhaustive but aims to provide you with a wealth of insights.
+
+## Basics
+
+- "Understanding the LLM Development Cycle: Building, Training, and Finetuning"
+  - ACM Tech Talk by Sebastian Raschka (Lightning AI) on 2024/06/05
+  - [Slides](https://sebastianraschka.com/pdf/slides/2024-acm.pdf) via Raschka's website
 
 ## LLM Models
 
@@ -29,6 +35,18 @@ While it may resemble one of those 'Awesome' lists, the LLM Knowledge Base is cu
 - Chameleon
   - [Pre-print](https://doi.org/10.48550/arXiv.2405.09818) on arXiv
   - [News article](https://the-decoder.de/chameleon-meta-stellt-den-vorlaeufer-seiner-gpt-4o-alternative-vor/) by The Decoder
+
+#### Microsoft
+
+- Phi-3-Vision
+  - SLM
+  - Text and image input
+  - [Announcement](https://azure.microsoft.com/en-us/blog/new-models-added-to-the-phi-3-family-available-on-microsoft-azure/) by Microsoft
+ 
+#### [Krea AI](https://www.krea.ai/home)
+
+- Generate images and videos via text and/or image input
+- [News article](https://the-decoder.de/krea-ai-veroeffentlicht-ki-videogenerator-mit-keyframe-unterstuetzung/) by The Decoder about the video generation feature
 
 ### Text Input / Output
 
@@ -50,6 +68,7 @@ While it may resemble one of those 'Awesome' lists, the LLM Knowledge Base is cu
 
 - [Claude 3](https://www.anthropic.com/claude)
 - Advertizes the high security of Claude
+- Claude 3 can access external APIs, incl. databases, and cab work with agents internally ([announcement](https://www.anthropic.com/news/tool-use-ga) by Anthropic, [news article](https://the-decoder.de/anthropic-erweitert-claude-3-mit-tool-unterstuetzung-und-ki-agenten/ by The Decoder))
 
 #### [Reka AI](https://www.reka.ai/)
 
@@ -256,6 +275,17 @@ While it may resemble one of those 'Awesome' lists, the LLM Knowledge Base is cu
 #### Stability AI
 
 - [Stable Audio 2](https://stableaudio.com/))
+  - Generates up to 3-minutes-long music
+- [Stable Audio Open]
+  - Generates up to 47-seconds-long audio samples and sound effects
+  - Open-source model
+  - [Announcement](https://stability.ai/news/introducing-stable-audio-open) by Stability AI
+  - [News article](https://the-decoder.de/stable-audio-open-ist-ein-open-source-ki-modell-fuer-geraeusche-und-sounddesign/) by The Decoder
+
+#### [Elevenlabs](https://elevenlabs.io/)
+
+- Text/voice to voice with multiple languages ([news article](https://the-decoder.de/sprach-ki-service-elevenlabs-stellt-neues-multisprachen-modell-vor/) by The Decoder)
+- Text to sound effect ([announcement](https://elevenlabs.io/blog/sound-effects-are-here/) by Elevenlabs, [news article](https://the-decoder.de/text-zu-boom-ki-sprachgenerator-elevenlabs-unterstuetzt-jetzt-soundeffekte/) by The Decoder)
 
 #### Google
 
@@ -272,11 +302,18 @@ While it may resemble one of those 'Awesome' lists, the LLM Knowledge Base is cu
 - Support for multiple languages
 - [News article](https://www.heise.de/news/Kuenstliche-Intelligenz-Udio-Mit-wenigen-Stichworten-zum-eigenen-Song-9681717.html)
 
-### Medicine
+### Specific Domains
 
-#### Google
+#### Medicine
 
-- AlphaFold 3 to generate protein structures ([news article](https://www.heise.de/news/AlphaFold-3-Googles-KI-sagt-Struktur-aller-Molekuele-voraus-9713361.html) by Heise)
+- Google's AlphaFold 3 generates protein structures ([news article](https://www.heise.de/news/AlphaFold-3-Googles-KI-sagt-Struktur-aller-Molekuele-voraus-9713361.html) by Heise)
+
+#### Legal and Compliance
+
+- creance.ai
+  - Joint venture by PwC and Aleph Alpha that will provide AI solutions for legal and compliance consulting
+  - [Announcement](https://www.pwc.de/de/pressemitteilungen/2024/pwc-deutschland-und-aleph-alpha-grunden-joint-venture-creanceai.html) by PwC
+  - [News article](https://www.heise.de/news/PwC-und-Aleph-Alpha-gruenden-Joint-Venture-fuer-KI-Loesungen-in-Rechtsberatung-9750737.html) by Heise
 
 ## In-Context Learning
 
@@ -316,6 +353,10 @@ While it may resemble one of those 'Awesome' lists, the LLM Knowledge Base is cu
 
 - Other projects by LMSYS on their [website](https://lmsys.org)
 
+#### [AlpacaEval](https://tatsu-lab.github.io/alpaca_eval/)
+
+- Ratings of AlpacaEval correlate strongly with human evaluation.
+
 #### Prometheus 2
 
 - Open-source LLM to benchmark other LLMs (similar to a human assessment)
@@ -334,7 +375,9 @@ While it may resemble one of those 'Awesome' lists, the LLM Knowledge Base is cu
 
 ### Platforms
 
+- [Azure](https://azure.microsoft.com/en-us/) by Microsoft
 - [Vertex AI](https://cloud.google.com/vertex-ai) by Google
+- [Lightning AI](https://lightning.ai) offers on-cloud programming, AI training, and hosting of AI web apps via their Studio application.
 
 ### Tools
 

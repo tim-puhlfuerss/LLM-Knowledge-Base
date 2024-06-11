@@ -1,6 +1,6 @@
 # LLM Knowledge Base
 
-Last update: 2024/06/07 (YYYY/MM/DD)
+Last update: 2024/06/11 (YYYY/MM/DD)
 
 ## Purpose
 
@@ -16,6 +16,8 @@ While it may resemble one of those 'Awesome' lists, the LLM Knowledge Base is cu
 - "Understanding the LLM Development Cycle: Building, Training, and Finetuning"
   - ACM Tech Talk by Sebastian Raschka (Lightning AI) on 2024/06/05
   - [Slides](https://sebastianraschka.com/pdf/slides/2024-acm.pdf) via Raschka's website
+- "Let's reproduce GPT-2 (124M)" by Andrej Karpathy (former OpenAI researcher)
+  - [YouTube video](https://youtu.be/l8pRSuU81PU?si=mtbhxGjHGLxmxWW_), released in June 2024
 
 ## LLM Models
 
@@ -116,6 +118,14 @@ While it may resemble one of those 'Awesome' lists, the LLM Knowledge Base is cu
 - [Paper pre-print](https://doi.org/10.48550/arXiv.2403.05525) on arXiv
 - [Chat demo](https://huggingface.co/spaces/deepseek-ai/DeepSeek-VL-7B) on Hugging Face
 - [News article 1](https://www.heise.de/news/ChatGPT-4-Konkurrent-aus-China-DeepSeek-V2-ist-Open-Source-9713482.html) by Heise and [article 2](https://the-decoder.de/deepseek-v2-ist-das-neue-mixture-of-experts-spitzenmodell/) by The Decoder
+
+#### Qwen / Alibaba
+
+- Open-source LLM Qwen
+- Current model, Qwen 2, performs better than other OSS models.
+- [Hugging Face](https://huggingface.co/collections/Qwen/qwen2-6659360b33528ced941e557f)
+- [GitHub](https://github.com/QwenLM/Qwen2)
+- [News article](https://the-decoder.de/qwen2-setzt-neue-massstaebe-bei-open-source-sprachmodellen/) by The Decoder, 2024/07/11
 
 #### [Aleph Alpha](https://aleph-alpha.com/)
 
@@ -365,6 +375,13 @@ While it may resemble one of those 'Awesome' lists, the LLM Knowledge Base is cu
 - [News article](https://the-decoder.de/open-source-llm-prometheus-2-soll-andere-sprachmodelle-bewerten-und-verbessern/) by The Decoder
 - Note: GPT and other LLMs can benchmark other LLMs, too. But Prometheus is open-source and reaches a similar performance.
 
+### Critique on LLM Benchmarks
+
+- Paper ["Alice in Wonderland"](https://doi.org/10.48550/arXiv.2406.02061) by Nezhurina et al. (June 2024)
+  - Current LLMs fail in reasoning tasks, even if they are very simple.
+  - Current benchmarks (also the reasoning-related ones) do not sufficiently detect such flaws
+  - [News article](https://www.heise.de/news/Reasoning-Fail-Gaengige-LLMs-scheitern-an-kinderleichter-Aufgabe-9755034.html) by Heise
+
 ## Further AI Tools and Platforms
 
 ### LLM Frameworks
@@ -397,6 +414,11 @@ While it may resemble one of those 'Awesome' lists, the LLM Knowledge Base is cu
 #### [Perplexity]((https://www.perplexity.ai/))
 
 - A search engine that summarizes the results of a search request in small text chunks, incl. hyperlinks to its sources.
+
+#### [Perplexica](https://github.com/ItzCrazyKns/Perplexica)
+
+- Open-source, self-hosted alternative to Perplexity
+- [News article](https://the-decoder.de/perplexica-ist-eine-open-source-ki-suchmaschine-als-alternative-zu-perplexity/) by The Decoder, 2024/06/10
 
 #### [GPT4All]((https://gpt4all.io/index.html))
 
@@ -517,6 +539,9 @@ While it may resemble one of those 'Awesome' lists, the LLM Knowledge Base is cu
 - Anthrophic's extraction of interpretable features from Claude 3 Sonnet
   - [Paper](https://transformer-circuits.pub/2024/scaling-monosemanticity/index.html) on Transformer Circuits Thread
   - [News article](https://www.heise.de/news/Anthropic-bietet-kleinen-Einblick-in-das-Innere-eines-grossen-KI-Modells-9730919.html) by Heise
+- OpenAI's version on GPT-4
+  - [Paper](https://doi.org/10.48550/arXiv.2406.04093) on arXiv 
+  - [News article](https://the-decoder.de/wie-denkt-gpt-4-openai-durchleutet-ki-modell-mit-neuer-methode/) by The Decoder, 2024/06/07
 
 ## Misc
 

@@ -1,6 +1,6 @@
 # LLM Knowledge Base
 
-Last update: 2024/06/11 (YYYY/MM/DD)
+Last update: 2024/06/18 (YYYY/MM/DD)
 
 ## Purpose
 
@@ -131,7 +131,7 @@ While it may resemble one of those 'Awesome' lists, the LLM Knowledge Base is cu
 
 - From Heidelberg (Germany)
 - [GitHub](https://github.com/Aleph-Alpha)
-- Research organization focusing on LLMs, especially concerning GDPR-save usage
+- Research organization focusing on LLMs, especially concerning GDPR-save usage in industry
 - Model family: [Luminous](https://docs.aleph-alpha.com/docs/introduction/luminous/)
 
 ### Programming/Coding Focus
@@ -257,21 +257,39 @@ While it may resemble one of those 'Awesome' lists, the LLM Knowledge Base is cu
 - Create a comic-like storyboard
 - [Website](https://aistorydiffusion.com)
 
-### Video Output
+### Video Input/Output
 
 #### Open AI
 
 - Sora
+
+#### Luma AI
+
+- Dream Machine
+  - [News article](https://the-decoder.de/luma-ai-veroeffentlicht-ki-videogenerator-dream-machine-als-kostenlose-testversion/#google_vignette) by The Decoder (2024/06/12)
+  - [Announcement](https://blog.lumalabs.ai/p/dream-machine) by Luma AI
 
 #### [Higgsfield AI](https://higgsfield.ai/)
 
 - iOS app called Diffuse
 - [News article](https://www.heise.de/news/Diffuse-Ex-KI-Chef-von-Snap-veroeffentlicht-KI-Videogenerator-9677577.html) by Heise
 
-#### Runway
+#### RunwayML
 
-- [Gen-2](https://research.runwayml.com/gen2) model to create videos from images
-- [News article](https://www.heise.de/tests/Bilder-in-Videos-verwandeln-Runway-Gen-2-im-Test-9572001.html) by Heise
+- Gen-3 Alpha
+  - Text2Video, Image2Video, Text2Image
+  - [Announcement](https://runwayml.com/blog/introducing-gen-3-alpha/) by RunwayML (2024/06/17)
+  - [News article](https://the-decoder.de/runway-gen-3-alpha-neues-videomodell-verkleinert-luecke-zu-openais-sora/) by The Decoder (2024/06/17)
+- [Gen-2](https://research.runwayml.com/gen2)
+  - Image2Video 
+  - [News article](https://www.heise.de/tests/Bilder-in-Videos-verwandeln-Runway-Gen-2-im-Test-9572001.html) by Heise
+
+#### Google
+
+- V2A
+  - Video2Audio
+  - [Announcement](https://deepmind.google/discover/blog/generating-audio-for-video/) by Google Deepmind (2024/06/17)
+  - [News article](https://the-decoder.de/deepmind-zeigt-v2a-ki-generiert-passenden-sound-fuer-stumme-videos/) by The Decoder (2024/06/18)
 
 #### Microsoft
 
@@ -294,8 +312,15 @@ While it may resemble one of those 'Awesome' lists, the LLM Knowledge Base is cu
 
 #### [Elevenlabs](https://elevenlabs.io/)
 
-- Text/voice to voice with multiple languages ([news article](https://the-decoder.de/sprach-ki-service-elevenlabs-stellt-neues-multisprachen-modell-vor/) by The Decoder)
+- Text-to-speech and speech-to-speech with multiple languages ([news article](https://the-decoder.de/sprach-ki-service-elevenlabs-stellt-neues-multisprachen-modell-vor/) by The Decoder)
 - Text to sound effect ([announcement](https://elevenlabs.io/blog/sound-effects-are-here/) by Elevenlabs, [news article](https://the-decoder.de/text-zu-boom-ki-sprachgenerator-elevenlabs-unterstuetzt-jetzt-soundeffekte/) by The Decoder)
+
+#### [Camb AI](https://www.camb.ai/)
+
+- Mars5
+  - Text-to-speech with support of 140 languages
+  - [News article](https://the-decoder.de/mars5-soll-elevenlabs-schlagen-und-ist-fuer-englisch-kostenlos/) by The Decoder (2024/06/17)
+  - [GitHub repo](https://github.com/Camb-ai/MARS5-TTS) limited to English language
 
 #### Google
 
@@ -374,6 +399,15 @@ While it may resemble one of those 'Awesome' lists, the LLM Knowledge Base is cu
 - [Hugging Face](https://huggingface.co/prometheus-eval/prometheus-8x7b-v2.0)
 - [News article](https://the-decoder.de/open-source-llm-prometheus-2-soll-andere-sprachmodelle-bewerten-und-verbessern/) by The Decoder
 - Note: GPT and other LLMs can benchmark other LLMs, too. But Prometheus is open-source and reaches a similar performance.
+
+### Synthetical Dataset Generators
+
+#### Nvidia
+
+- Nemotron
+  - Open-source model family to generate synthetical datasets
+  - [Announcement](https://blogs.nvidia.com/blog/nemotron-4-synthetic-data-generation-llm-training/) by Nvidia (2024/06/14)
+  - [News article](https://the-decoder.de/nvidia-veroeffentlicht-kostenlose-sprachmodelle-optimiert-fuer-die-datengenerierung/) by The Decoder (2024/06/15)
 
 ### Critique on LLM Benchmarks
 
@@ -541,7 +575,10 @@ While it may resemble one of those 'Awesome' lists, the LLM Knowledge Base is cu
   - [News article](https://www.heise.de/news/Anthropic-bietet-kleinen-Einblick-in-das-Innere-eines-grossen-KI-Modells-9730919.html) by Heise
 - OpenAI's version on GPT-4
   - [Paper](https://doi.org/10.48550/arXiv.2406.04093) on arXiv 
-  - [News article](https://the-decoder.de/wie-denkt-gpt-4-openai-durchleutet-ki-modell-mit-neuer-methode/) by The Decoder, 2024/06/07
+  - [News article](https://the-decoder.de/wie-denkt-gpt-4-openai-durchleutet-ki-modell-mit-neuer-methode/) by The Decoder (2024/06/07)
+- Anthropic's Beta Steering API
+  - To boost specific concepts within a model's network
+  - [News article](https://the-decoder.de/anthropic-testet-neue-beta-steering-api-neue-steuerungsmoeglichkeiten-fuer-llms/) by The Decoder (2024/06/16)
 
 ## Misc
 

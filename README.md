@@ -1,6 +1,6 @@
 # LLM Knowledge Base
 
-Last update: 2024/06/18 (YYYY/MM/DD)
+Last update: 2024/06/24 (YYYY/MM/DD)
 
 ## Purpose
 
@@ -36,7 +36,8 @@ While it may resemble one of those 'Awesome' lists, the LLM Knowledge Base is cu
 
 - Chameleon
   - [Pre-print](https://doi.org/10.48550/arXiv.2405.09818) on arXiv
-  - [News article](https://the-decoder.de/chameleon-meta-stellt-den-vorlaeufer-seiner-gpt-4o-alternative-vor/) by The Decoder
+  - News articles [1](https://the-decoder.de/chameleon-meta-stellt-den-vorlaeufer-seiner-gpt-4o-alternative-vor/) and [2](https://the-decoder.de/meta-veroeffentlicht-neue-ki-modelle-fuer-text-bild-und-audio/) by The Decoder (2024/05/17, 2024/06/19)
+  - [Announcement](https://about.fb.com/news/2024/06/releasing-new-ai-research-models-to-accelerate-innovation-at-scale/) by Meta (2024/06/18)
 
 #### Microsoft
 
@@ -106,7 +107,7 @@ While it may resemble one of those 'Awesome' lists, the LLM Knowledge Base is cu
 
 - OpenELM family
 - “Efficient Language Model” for edge devices
-- [Preprint](https://doi.org/10.48550/arXiv.2404.14619) on arXiv
+- [Pre-print](https://doi.org/10.48550/arXiv.2404.14619) on arXiv
 - [Model](https://huggingface.co/apple/OpenELM) on Hugging Face
 
 #### DeepSeek
@@ -149,10 +150,17 @@ While it may resemble one of those 'Awesome' lists, the LLM Knowledge Base is cu
 - Includes rights management on the manager level to restrict the tool from reading sensitive data
 - [News article](https://www.heise.de/news/Duo-GitLab-gibt-KI-Developer-Chat-offiziell-fuer-Pro-Nutzer-frei-9690844.html) by Heise
 
+#### DeepSeek
+
+- DeepSeek-Coder-V2
+  - Programming-focused open-source model that achieves similar coding performance like GPT-4 Turbo.
+  - [News article](https://the-decoder.de/deepseek-coder-v2-open-source-modell-schlaegt-gpt-4-und-claude-opus/) by The Decoder (2024/06/18)
+  - [GitHub repo](https://github.com/deepseek-ai/DeepSeek-Coder-V2/tree/main), incl. pre-print paper
+
 #### Mistal
 
 - [Codestral](https://mistral.ai/news/codestral/)
- - Outperforms CodeLlama, Llama 3 and DeepSeek Coder
+ - Outperforms CodeLlama, Llama 3 and DeepSeek Coder V1
  - [News article](https://the-decoder.de/mistral-stellt-neues-code-modell-vor-das-effizienter-und-kompetenter-als-llama-3-sein-soll/) by The Decoder 
 
 #### Meta
@@ -226,10 +234,10 @@ While it may resemble one of those 'Awesome' lists, the LLM Knowledge Base is cu
 - Imagine (based on Emu model)
 - [News article](https://www.heise.de/news/Meta-bringt-mit-Imagine-eigenstaendigen-KI-Bildgenerator-9566722.html) by Heise
 
-#### Magnific AI
+#### [Magnific AI](https://magnific.ai)
 
 - Image resolution upscaler
-- [Website](https://magnific.ai)
+- Can also replace image backgrounds ([news article](https://the-decoder.de/magnific-ais-relight-tauscht-beleuchtung-und-hintergruende-in-bildern-per-ki-prompt-aus/) by The Decoder (2024/05/23)
 - Was acquired by Freepik in May 2024 ([News article](https://the-decoder.de/ki-upscale-start-up-magnific-ai-schafft-exit-mit-aussergewoehnlicher-gruendergeschichte/) by The Decoder)  
 
 #### Amazon
@@ -294,7 +302,7 @@ While it may resemble one of those 'Awesome' lists, the LLM Knowledge Base is cu
 #### Microsoft
 
 - VASA:
-  - Text + face image -> animated face video
+  - Text + face image to animated face video
   - Not publicly available due to deepfake potential
   - [News article](https://the-decoder.de/vasa-1-microsoft-zeigt-lebensechte-ki-avatare-in-echtzeit/) by The Decoder
 
@@ -303,7 +311,7 @@ While it may resemble one of those 'Awesome' lists, the LLM Knowledge Base is cu
 #### Stability AI
 
 - [Stable Audio 2](https://stableaudio.com/))
-  - Generates up to 3-minutes-long music
+  - Text-to-music (up to 3-minutes)
 - [Stable Audio Open]
   - Generates up to 47-seconds-long audio samples and sound effects
   - Open-source model
@@ -328,14 +336,29 @@ While it may resemble one of those 'Awesome' lists, the LLM Knowledge Base is cu
 
 #### [Suno]((https://suno.com/))
 
-- Generate songs, incl. lyrics
+- Text-to-music, incl. lyrics
 - E.g., [the MIT License as a ballad](https://suno.com/song/da6d4a83-1001-4694-8c28-648a6e8bad0a)
 
 #### [Udio](https://www.udio.com/)
 
-- Generate songs, incl. lyrics
+- Text-to-music, incl. lyrics
 - Support for multiple languages
 - [News article](https://www.heise.de/news/Kuenstliche-Intelligenz-Udio-Mit-wenigen-Stichworten-zum-eigenen-Song-9681717.html)
+
+#### [Jen](https://www.jenmusic.ai)
+
+- Model Jen [ALPHA]
+- Text-to-music (just instrumentals, up to 40 seconds)
+- Trained on a fully licensed music dataset
+- Stores the IDs of generated songs in a blockchain to solve legal conflicts (duplication, original authors, etc.)
+- [News article](https://the-decoder.de/neue-text-zu-audio-ki-jen-verspricht-eigene-songs-ohne-copyright-aerger/) by The Decoder (2024/06/22)
+
+#### Meta
+
+- JASCO
+  - Text-to-music
+  - [Announcment](https://about.fb.com/news/2024/06/releasing-new-ai-research-models-to-accelerate-innovation-at-scale/) by Meta (2024/06/18)
+  - [News article](https://the-decoder.de/meta-veroeffentlicht-neue-ki-modelle-fuer-text-bild-und-audio/) by the Decoder (2024/06/19)
 
 ### Specific Domains
 
@@ -352,6 +375,7 @@ While it may resemble one of those 'Awesome' lists, the LLM Knowledge Base is cu
 
 ## In-Context Learning
 
+### Definition
 - In-context learning (ICL) vs. fine-tuning: The former adds the examples to the prompt instead of training the model
 - E.g., few-shot / many-shot prompting
 - In-context learning is much cheaper and less effortful than fine-tuning.
@@ -360,6 +384,15 @@ While it may resemble one of those 'Awesome' lists, the LLM Knowledge Base is cu
   - In a test by Google, the performance of Gemini Pro 1.5 with many-shot prompts was significantly better than with few-shots.
   - [Pre-print](https://arxiv.org/abs/2404.11018) by Agarwal et al. on arXiv
   - [News article](https://the-decoder.de/prompts-mit-vielen-beispielen-verbessern-die-leistung-grosser-sprachmodelle/) by The Decoder
+
+### Prompt Engineering Guidelines and Overview Papers
+
+- The Prompt Report: A Systematic Survey of Prompting Techniques (Schulhoff et al., 2024)
+  - [Pre-print](https://doi.org/10.48550/arXiv.2406.06608) on arXiv
+  - [Project website](https://trigaten.github.io/Prompt_Survey_Site/)
+  - [News article](https://the-decoder.de/der-prompt-report-ist-ein-umfassender-prompting-ueberblick-mit-kuriosen-erkenntnissen/) by The Decoder (2024/06/15)
+- [Prompt Engineering Guide](https://www.promptingguide.ai) (Elvis Saravia)
+  - Definitions and examples for various prompt engineering techniques
 
 ## Multi-Agent LLMs
 
@@ -599,6 +632,11 @@ While it may resemble one of those 'Awesome' lists, the LLM Knowledge Base is cu
   - TikTok also became part of it in May 2025 ([news article](https://www.heise.de/news/Tiktok-tritt-CAI-bei-C2PA-Kennzeichnung-fuer-KI-Inhalte-9713446.html) by Heise)
 - SynthID
   - By Google
+- AudioSeal
+  - By Meta
+  - Audio watermark
+  - [News article](https://the-decoder.de/meta-veroeffentlicht-neue-ki-modelle-fuer-text-bild-und-audio/) by The Decoder (2024/06/19)
+  - [Announcement](https://about.fb.com/news/2024/06/releasing-new-ai-research-models-to-accelerate-innovation-at-scale/) by Meta (2024/06/18)
  
 ### AI for Work
 

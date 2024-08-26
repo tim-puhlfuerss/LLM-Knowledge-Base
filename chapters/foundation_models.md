@@ -45,6 +45,9 @@
 ### Google
 
 - Gemini (formerly Bard)
+- Gemma
+  - Open-source model
+  - [News article](https://www.heise.de/news/KI-Update-kompakt-Proteinrevolution-Meta-AI-in-Berlin-Gemma-2-9781101.html) by Heise (2024/06/27) 
 
 ### Anthropic
 
@@ -128,6 +131,14 @@
 - Duo (similar to Copilot)
 - Includes rights management on the manager level to restrict the tool from reading sensitive data
 - [News article](https://www.heise.de/news/Duo-GitLab-gibt-KI-Developer-Chat-offiziell-fuer-Pro-Nutzer-frei-9690844.html) by Heise
+
+### OpenAI
+
+- CriticGPT
+  - GPT-based model to find errors in (generated) code
+  - [News article](https://www.heise.de/news/CriticGPT-OpenAI-will-mit-kritischer-GPT-4-Version-Fehler-in-ChatGPT-finden-9781973.html) by Heise (2024/06/28)
+  - [Blog post](https://openai.com/index/finding-gpt4s-mistakes-with-gpt-4/) by OpenAI (2024/06/27)
+  - [Paper](https://doi.org/10.48550/arXiv.2407.00215) on arXiv
 
 ### DeepSeek
 

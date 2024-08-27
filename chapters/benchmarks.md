@@ -31,6 +31,11 @@
 - [News article](https://the-decoder.de/open-source-llm-prometheus-2-soll-andere-sprachmodelle-bewerten-und-verbessern/) by The Decoder
 - Note: GPT and other LLMs can benchmark other LLMs, too. But Prometheus is open-source and reaches a similar performance.
 
+### [KI-Kompass by Buzzwoo](https://www.buzzwoo.de/kuenstliche-intelligenz)
+
+- Similar to LMSYS Chatbot Arena
+- [News article](https://www.heise.de/news/KI-Kompass-vergleicht-rund-40-KI-Sprachmodelle-9794173.html) by Heise (2024/07/09)
+
 ## Synthetical Dataset Generators
 
 ### Nvidia

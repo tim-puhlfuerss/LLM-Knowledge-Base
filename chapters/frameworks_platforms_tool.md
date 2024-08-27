@@ -62,3 +62,9 @@
 
 - [Blog article](https://www.aboutamazon.com/news/aws/amazon-q-generative-ai-assistant-aws) by Amazon
 - [News article](https://the-decoder.de/amazon-veroeffentlicht-business-chatbot-q-mit-neuen-funktionen/) by The Decoder
+
+### Retrieval-Augmented Generation (RAG) Tools
+
+- [Khoj](https://khoj.dev) (open-source tool)
+- [Nuclia](https://nuclia.com)
+- [Tutorial](https://youtu.be/Yhtjd7yGGGA?si=tn6ZZjkliSK_bE27) by Rabbit Hole Syndrom on YouTube how to build a RAG with OpenAI Embeddings, Supabase, and pgvector

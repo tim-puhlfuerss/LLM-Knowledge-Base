@@ -9,11 +9,14 @@
 
 ## Guidelines
 
-### AI Guidelines by European Union
+### AI Act and Guidelines by European Union
 
-- Generative AI and the EUDPR. First EDPS Orientations for ensuring data protection compliance when using Generative AI systems (June 2024, by the European Data Protection Supervisor)
+- Guideline about Generative AI by the EUDPR. First EDPS Orientations for ensuring data protection compliance when using Generative AI systems (June 2024, by the European Data Protection Supervisor)
   - [Guideline](https://www.edps.europa.eu/system/files/2024-06/24-06-03_genai_orientations_en.pdf) by the Supervisor
   - [News article](https://www.heise.de/news/ChatGPT-Co-EU-Datenschuetzer-verteidigt-Datenminimierung-9746014.html) by Heise
+- AI Act
+  - [AI Act FAQ](https://ec.europa.eu/commission/presscorner/detail/en/qanda_21_1683) by the European Commission
+  - [News article](https://www.heise.de/hintergrund/AI-Act-tritt-in-Kraft-Was-Sie-zur-KI-Verordnung-wissen-muessen-9819063.html) by Heise (2024/08/01) with a summary about most important aspects of the AI Act
 
 ### AI Guideline by German Data Protection Authority
 

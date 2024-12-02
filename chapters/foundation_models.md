@@ -1,5 +1,18 @@
 # 🌍 Foundation Models
 
+## Reasoning Focus
+
+### OpenAI
+
+- GPT-o1
+  - Focused on reasoning.
+  - Requires longer response times, but shall provide responses of higher quality
+ 
+### DeepSeek
+
+- DeepSeek-R1
+  - [News article](https://www.heise.de/news/DeepSeek-R1-Neues-KI-Sprachmodell-mit-Reasoning-aus-China-gegen-OpenAI-o1-10082110.html) by Heise (2024-11-21)
+
 ## Multimodal Input / Output
 
 ### OpenAI
@@ -15,8 +28,8 @@
 
 - Chameleon
   - [Pre-print](https://doi.org/10.48550/arXiv.2405.09818) on arXiv
-  - News articles [1](https://the-decoder.de/chameleon-meta-stellt-den-vorlaeufer-seiner-gpt-4o-alternative-vor/) and [2](https://the-decoder.de/meta-veroeffentlicht-neue-ki-modelle-fuer-text-bild-und-audio/) by The Decoder (2024/05/17, 2024/06/19)
-  - [Announcement](https://about.fb.com/news/2024/06/releasing-new-ai-research-models-to-accelerate-innovation-at-scale/) by Meta (2024/06/18)
+  - News articles [1](https://the-decoder.de/chameleon-meta-stellt-den-vorlaeufer-seiner-gpt-4o-alternative-vor/) and [2](https://the-decoder.de/meta-veroeffentlicht-neue-ki-modelle-fuer-text-bild-und-audio/) by The Decoder (2024-05-17, 2024-06-19)
+  - [Announcement](https://about.fb.com/news/2024/06/releasing-new-ai-research-models-to-accelerate-innovation-at-scale/) by Meta (2024-06-18)
 
 ### Microsoft
 
@@ -37,7 +50,7 @@
 - Llama3
 - LLMLingua-2
   - Compresses prompts up to 80% to make model calls more cost-efficient
-  - Released on 19.03.2024
+  - Released on 2024-03-19
   - [Pre-print](https://doi.org/10.48550/arXiv.2403.12968) on arXiv
   - [News article](https://the-decoder.de/neues-tool-von-microsoft-kann-ki-prompts-um-bis-zu-80-prozent-komprimieren/) by The Decoder
 - Open source
@@ -47,7 +60,7 @@
 - Gemini (formerly Bard)
 - Gemma
   - Open-source model
-  - [News article](https://www.heise.de/news/KI-Update-kompakt-Proteinrevolution-Meta-AI-in-Berlin-Gemma-2-9781101.html) by Heise (2024/06/27) 
+  - [News article](https://www.heise.de/news/KI-Update-kompakt-Proteinrevolution-Meta-AI-in-Berlin-Gemma-2-9781101.html) by Heise (2024-06-27) 
 
 ### Anthropic
 
@@ -108,7 +121,7 @@
 - Current model, Qwen 2, performs better than other OSS models.
 - [Hugging Face](https://huggingface.co/collections/Qwen/qwen2-6659360b33528ced941e557f)
 - [GitHub](https://github.com/QwenLM/Qwen2)
-- [News article](https://the-decoder.de/qwen2-setzt-neue-massstaebe-bei-open-source-sprachmodellen/) by The Decoder, 2024/07/11
+- [News article](https://the-decoder.de/qwen2-setzt-neue-massstaebe-bei-open-source-sprachmodellen/) by The Decoder, 2024-07-11
 
 ### [Aleph Alpha](https://aleph-alpha.com/)
 
@@ -136,15 +149,15 @@
 
 - CriticGPT
   - GPT-based model to find errors in (generated) code
-  - [News article](https://www.heise.de/news/CriticGPT-OpenAI-will-mit-kritischer-GPT-4-Version-Fehler-in-ChatGPT-finden-9781973.html) by Heise (2024/06/28)
-  - [Blog post](https://openai.com/index/finding-gpt4s-mistakes-with-gpt-4/) by OpenAI (2024/06/27)
+  - [News article](https://www.heise.de/news/CriticGPT-OpenAI-will-mit-kritischer-GPT-4-Version-Fehler-in-ChatGPT-finden-9781973.html) by Heise (2024-06-28)
+  - [Blog post](https://openai.com/index/finding-gpt4s-mistakes-with-gpt-4/) by OpenAI (2024-06-27)
   - [Paper](https://doi.org/10.48550/arXiv.2407.00215) on arXiv
 
 ### DeepSeek
 
 - DeepSeek-Coder-V2
   - Programming-focused open-source model that achieves similar coding performance like GPT-4 Turbo.
-  - [News article](https://the-decoder.de/deepseek-coder-v2-open-source-modell-schlaegt-gpt-4-und-claude-opus/) by The Decoder (2024/06/18)
+  - [News article](https://the-decoder.de/deepseek-coder-v2-open-source-modell-schlaegt-gpt-4-und-claude-opus/) by The Decoder (2024-06-18)
   - [GitHub repo](https://github.com/deepseek-ai/DeepSeek-Coder-V2/tree/main), incl. pre-print paper
 
 ### Mistal
@@ -227,7 +240,7 @@
 ### [Magnific AI](https://magnific.ai)
 
 - Image resolution upscaler
-- Can also replace image backgrounds ([news article](https://the-decoder.de/magnific-ais-relight-tauscht-beleuchtung-und-hintergruende-in-bildern-per-ki-prompt-aus/) by The Decoder (2024/05/23)
+- Can also replace image backgrounds ([news article](https://the-decoder.de/magnific-ais-relight-tauscht-beleuchtung-und-hintergruende-in-bildern-per-ki-prompt-aus/) by The Decoder (2024-05-23)
 - Was acquired by Freepik in May 2024 ([News article](https://the-decoder.de/ki-upscale-start-up-magnific-ai-schafft-exit-mit-aussergewoehnlicher-gruendergeschichte/) by The Decoder)  
 
 ### Amazon
@@ -264,7 +277,7 @@
 ### Luma AI
 
 - Dream Machine
-  - [News article](https://the-decoder.de/luma-ai-veroeffentlicht-ki-videogenerator-dream-machine-als-kostenlose-testversion/#google_vignette) by The Decoder (2024/06/12)
+  - [News article](https://the-decoder.de/luma-ai-veroeffentlicht-ki-videogenerator-dream-machine-als-kostenlose-testversion/#google_vignette) by The Decoder (2024-06-12)
   - [Announcement](https://blog.lumalabs.ai/p/dream-machine) by Luma AI
 
 ### [Higgsfield AI](https://higgsfield.ai/)
@@ -276,8 +289,8 @@
 
 - Gen-3 Alpha
   - Text2Video, Image2Video, Text2Image
-  - [Announcement](https://runwayml.com/blog/introducing-gen-3-alpha/) by RunwayML (2024/06/17)
-  - [News article](https://the-decoder.de/runway-gen-3-alpha-neues-videomodell-verkleinert-luecke-zu-openais-sora/) by The Decoder (2024/06/17)
+  - [Announcement](https://runwayml.com/blog/introducing-gen-3-alpha/) by RunwayML (2024-06-17)
+  - [News article](https://the-decoder.de/runway-gen-3-alpha-neues-videomodell-verkleinert-luecke-zu-openais-sora/) by The Decoder (2024-06-17)
 - [Gen-2](https://research.runwayml.com/gen2)
   - Image2Video
   - [News article](https://www.heise.de/tests/Bilder-in-Videos-verwandeln-Runway-Gen-2-im-Test-9572001.html) by Heise
@@ -286,8 +299,8 @@
 
 - V2A
   - Video2Audio
-  - [Announcement](https://deepmind.google/discover/blog/generating-audio-for-video/) by Google Deepmind (2024/06/17)
-  - [News article](https://the-decoder.de/deepmind-zeigt-v2a-ki-generiert-passenden-sound-fuer-stumme-videos/) by The Decoder (2024/06/18)
+  - [Announcement](https://deepmind.google/discover/blog/generating-audio-for-video/) by Google Deepmind (2024-06-17)
+  - [News article](https://the-decoder.de/deepmind-zeigt-v2a-ki-generiert-passenden-sound-fuer-stumme-videos/) by The Decoder (2024-06-18)
 
 ### Microsoft
 
@@ -317,7 +330,7 @@
 
 - Mars5
   - Text-to-speech with support of 140 languages
-  - [News article](https://the-decoder.de/mars5-soll-elevenlabs-schlagen-und-ist-fuer-englisch-kostenlos/) by The Decoder (2024/06/17)
+  - [News article](https://the-decoder.de/mars5-soll-elevenlabs-schlagen-und-ist-fuer-englisch-kostenlos/) by The Decoder (2024-06-17)
   - [GitHub repo](https://github.com/Camb-ai/MARS5-TTS) limited to English language
 
 ### Google
@@ -341,14 +354,14 @@
 - Text-to-music (just instrumentals, up to 40 seconds)
 - Trained on a fully licensed music dataset
 - Stores the IDs of generated songs in a blockchain to solve legal conflicts (duplication, original authors, etc.)
-- [News article](https://the-decoder.de/neue-text-zu-audio-ki-jen-verspricht-eigene-songs-ohne-copyright-aerger/) by The Decoder (2024/06/22)
+- [News article](https://the-decoder.de/neue-text-zu-audio-ki-jen-verspricht-eigene-songs-ohne-copyright-aerger/) by The Decoder (2024-06-22)
 
 ### Meta
 
 - JASCO
   - Text-to-music
-  - [Announcment](https://about.fb.com/news/2024/06/releasing-new-ai-research-models-to-accelerate-innovation-at-scale/) by Meta (2024/06/18)
-  - [News article](https://the-decoder.de/meta-veroeffentlicht-neue-ki-modelle-fuer-text-bild-und-audio/) by the Decoder (2024/06/19)
+  - [Announcment](https://about.fb.com/news/2024/06/releasing-new-ai-research-models-to-accelerate-innovation-at-scale/) by Meta (2024-06-18)
+  - [News article](https://the-decoder.de/meta-veroeffentlicht-neue-ki-modelle-fuer-text-bild-und-audio/) by the Decoder (2024-06-19)
 
 ## Specific Domains
 

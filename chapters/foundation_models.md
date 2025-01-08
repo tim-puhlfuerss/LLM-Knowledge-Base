@@ -68,6 +68,12 @@
 - Advertizes the high security of Claude
 - Claude 3 can access external APIs, incl. databases, and cab work with agents internally ([announcement](https://www.anthropic.com/news/tool-use-ga) by Anthropic, [news article](https://the-decoder.de/anthropic-erweitert-claude-3-mit-tool-unterstuetzung-und-ki-agenten/) by The Decoder)
 
+### [OpenGPT-X](https://huggingface.co/openGPT-X)
+
+- European open-source models, e.g., Teuken-7B
+- Developed by Fraunhofer Institut, TU Dresden, Forschungszentrum Jülich, Aleph Alpha, and others
+- [News article](https://www.heise.de/news/Forschungsprojekt-veroeffentlicht-KI-Sprachmodell-aus-Europa-10178030.html) by Heise (2024-11-27)
+
 ### [Reka AI](https://www.reka.ai/)
 
 - Multimodal input (text, image, video, audio) to text output
